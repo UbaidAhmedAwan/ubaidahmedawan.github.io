@@ -141,14 +141,14 @@
 
       $('#image-loader').fadeIn();
 
-      var name = $('#contactForm #name').val();
-      var email = $('#contactForm #email').val();
-      var subject = $('#contactForm #subject').val();
-      var message = $('#contactForm #message').val();
+      var contactName = $('#contactForm #contactName').val();
+      var contactEmail = $('#contactForm #contactEmail').val();
+      var contactSubject = $('#contactForm #contactSubject').val();
+      var contactMessage = $('#contactForm #contactMessage').val();
 
 
-      var data = 'name=' + name + '&email=' + email +
-               '&subject=' + subject + '&message=' + message;
+      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
+               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
 
 
       $.ajax({

@@ -1,10 +1,10 @@
 <?php
 
     $recipient="ubaidahmed30@gmail.com"; //Enter your mail address
-    $subject=$_POST['subject']; //Subject
-    $sender_Name=$_POST['name'];
-    $senderEmail=$_POST['email'];
-    $message=$_POST['message'];
+    $subject=$_POST['contactSubject']; //Subject
+    $sender_Name=$_POST['contactName'];
+    $senderEmail=$_POST['contactEmail'];
+    $message=$_POST['contactMessage'];
     $mailBody="Name: $sender_Name\nEmail Address: $senderEmail\n\nMessage: $message\n\n Sent from Portfolio Website";
     
 
