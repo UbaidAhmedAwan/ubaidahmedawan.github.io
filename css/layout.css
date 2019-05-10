@@ -238,6 +238,26 @@ ul#nav li.current a { color: #F06000; }
 }
 
 
+#about .contact-details { width: 41.66667%; }
+#about .hireme {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#about .main-col { padding-right: 5%; }
+#about .hireme .button {
+   margin-top: 6px;
+   background: #444;
+}
+#about .hireme .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#about .hireme .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
