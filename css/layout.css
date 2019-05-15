@@ -362,99 +362,99 @@ ul#nav li.current a { color: #F06000; }
 
 .Python {
   	width: 80%;
-  	-moz-animation: Python 2s ease;
-  	-webkit-animation: Python 2s ease;
+  	-moz-animation: Python 5s ease;
+  	-webkit-animation: Python 5s ease;
 }
 .MachineLearning {
   	width: 80%;
-  	-moz-animation: MachineLearning 2s ease;
-  	-webkit-animation: MachineLearning 2s ease;
+  	-moz-animation: MachineLearning 5s ease;
+  	-webkit-animation: MachineLearning 5s ease;
 }
 .C {
   	width: 90%;
-  	-moz-animation: C 2s ease;
-  	-webkit-animation: C 2s ease;
+  	-moz-animation: C 5s ease;
+  	-webkit-animation: C 5s ease;
 }
 .C_Sharp {
-  	width: 85%;
-  	-moz-animation: C_Sharp 2s ease;
-  	-webkit-animation: C_Sharp 2s ease;
+  	width: 80%;
+  	-moz-animation: C_Sharp 5s ease;
+  	-webkit-animation: C_Sharp 5s ease;
 }
 .Java {
   	width: 50%;
-  	-moz-animation: Java 2s ease;
-  	-webkit-animation: Java 2s ease;
+  	-moz-animation: Java 5s ease;
+  	-webkit-animation: Java 5s ease;
 }
 .Wordpress {
   	width: 80%;
-  	-moz-animation: Wordpress 2s ease;
-  	-webkit-animation: Wordpress 2s ease;
+  	-moz-animation: Wordpress 5s ease;
+  	-webkit-animation: Wordpress 5s ease;
 }
 
 .Swift_4 {
   	width: 35%;
-  	-moz-animation: Swift_4 2s ease;
-  	-webkit-animation: Swift_4 2s ease;
+  	-moz-animation: Swift_4 5s ease;
+  	-webkit-animation: Swift_4 5s ease;
 }
 
 .HTML_CSS {
   	width: 90%;
-  	-moz-animation: HTML_CSS 2s ease;
-  	-webkit-animation: HTML_CSS 2s ease;
+  	-moz-animation: HTML_CSS 5s ease;
+  	-webkit-animation: HTML_CSS 5s ease;
 }
 
 .JavaScript {
   	width: 80%;
-  	-moz-animation: JavaScript 2s ease;
-  	-webkit-animation: JavaScript 2s ease;
+  	-moz-animation: JavaScript 5s ease;
+  	-webkit-animation: JavaScript 5s ease;
 }
 
 .ASPdotNET {
   	width: 80%;
-  	-moz-animation: ASPdotNET 2s ease;
-  	-webkit-animation: ASPdotNET 2s ease;
+  	-moz-animation: ASPdotNET 5s ease;
+  	-webkit-animation: ASPdotNET 5s ease;
 }
 
 .PHP_MYSQL {
   	width: 60%;
-  	-moz-animation: PHP_MYSQL 2s ease;
-  	-webkit-animation: PHP_MYSQL 2s ease;
+  	-moz-animation: PHP_MYSQL 5s ease;
+  	-webkit-animation: PHP_MYSQL 5s ease;
 }
 
 .Angular_JS_6 {
   	width: 60%;
-  	-moz-animation: Angular_JS_6 2s ease;
-  	-webkit-animation: Angular_JS_6 2s ease;
+  	-moz-animation: Angular_JS_6 5s ease;
+  	-webkit-animation: Angular_JS_6 5s ease;
 }
 
 .AssemblyLanguage {
   	width: 60%;
-  	-moz-animation: AssemblyLanguage 2s ease;
-  	-webkit-animation: AssemblyLanguage 2s ease;
+  	-moz-animation: AssemblyLanguage 5s ease;
+  	-webkit-animation: AssemblyLanguage 5s ease;
 }
 
 .ReactNative {
   	width: 50%;
-  	-moz-animation: ReactNative 2s ease;
-  	-webkit-animation: ReactNative 2s ease;
+  	-moz-animation: ReactNative 5s ease;
+  	-webkit-animation: ReactNative 5s ease;
 }
 
 .XML {
   	width: 60%;
-  	-moz-animation: XML 2s ease;
-  	-webkit-animation: XML 2s ease;
+  	-moz-animation: XML 5s ease;
+  	-webkit-animation: XML 5s ease;
 }
 
 .DigitalImageProcessing {
   	width: 50%;
-  	-moz-animation: DigitalImageProcessing 2s ease;
-  	-webkit-animation: DigitalImageProcessing 2s ease;
+  	-moz-animation: DigitalImageProcessing 5s ease;
+  	-webkit-animation: DigitalImageProcessing 5s ease;
 }
 
 .CustomerRelationshipManagement {
   	width: 50%;
-  	-moz-animation: CustomerRelationshipManagement 2s ease;
-  	-webkit-animation: CustomerRelationshipManagement 2s ease;
+  	-moz-animation: CustomerRelationshipManagement 5s ease;
+  	-webkit-animation: CustomerRelationshipManagement 5s ease;
 }
 
 @-moz-keyframes Python {
@@ -471,7 +471,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes C_Sharp {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes Java {
   0%   { width: 0px;  }
@@ -551,7 +551,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes C_Sharp {
   0%   { width: 0px;  }
-  100% { width: 85%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes Java {
   0%   { width: 0px;  }
