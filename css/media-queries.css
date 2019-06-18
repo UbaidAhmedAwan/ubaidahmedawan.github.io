@@ -48,6 +48,8 @@
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
+   #about .hireme { width: 50%; }
+   #about .columnss { display: unset; }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -209,6 +211,11 @@
    -------------------------------------------------------------------- */
    #about .profile-pic { display: none; }
    #about .download .button {
+      width: 100%;
+      text-align: center;
+      padding: 15px 20px;
+   }
+   #about .hireme .button {
       width: 100%;
       text-align: center;
       padding: 15px 20px;
