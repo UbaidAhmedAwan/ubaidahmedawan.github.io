@@ -426,7 +426,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .PHP_MYSQL {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: PHP_MYSQL 5s ease;
   	-webkit-animation: PHP_MYSQL 5s ease;
 }
@@ -514,7 +514,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes PHP_MYSQL {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 
 @-moz-keyframes Angular_JS_6 {
@@ -594,7 +594,7 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes PHP_MYSQL {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 
 @-webkit-keyframes Angular_JS_6 {
