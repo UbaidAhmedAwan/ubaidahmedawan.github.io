@@ -396,7 +396,7 @@ ul#nav li.current a { color: #11ABB0; }
   	-webkit-animation: Java 5s ease;
 }
 .Wordpress {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: Wordpress 5s ease;
   	-webkit-animation: Wordpress 5s ease;
 }
@@ -426,7 +426,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 .PHP_MYSQL {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: PHP_MYSQL 5s ease;
   	-webkit-animation: PHP_MYSQL 5s ease;
 }
@@ -489,7 +489,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-moz-keyframes Wordpress {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 
 @-moz-keyframes Swift_4 {
@@ -514,7 +514,7 @@ ul#nav li.current a { color: #11ABB0; }
 
 @-moz-keyframes PHP_MYSQL {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 
 @-moz-keyframes Angular_JS_6 {
@@ -569,7 +569,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 @-webkit-keyframes Wordpress {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 
 @-webkit-keyframes Swift_4 {
@@ -594,7 +594,7 @@ ul#nav li.current a { color: #11ABB0; }
 
 @-webkit-keyframes PHP_MYSQL {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 
 @-webkit-keyframes Angular_JS_6 {
