@@ -1,913 +1,627 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en">
-<!--<![endif]-->
-<!-- Begin Head -->
-
+<html lang="en" class="scroll-smooth">
 <head>
-	<title>Ubaid Ahmed Awan</title>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="description" content="Portfolio">
-	<meta name="keywords"
-		content="Creative, minimal, Portfolio, cv, business, Resume, Information, personal portfolio, Professional">
-	<meta name="author" content="hsoft">
-	<meta name="MobileOptimized" content="320">
-	<!--Srart Style -->
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Favicon Link -->
-	<link rel="shortcut icon" type="image/png" href="images/header/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ubaid Ahmed Awan, Senior Software Engineer</title>
+  <meta name="description" content="Senior Software Engineer at Learnsignal. Full-stack web (Next.js, React, Node, Laravel, PHP) with cloud deployment across AWS, GCP, and Azure. 7+ years shipping production web applications." />
+  <meta name="author" content="Ubaid Ahmed Awan" />
+  <meta name="theme-color" content="#0b0f17" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ubaid Ahmed Awan, Senior Software Engineer" />
+  <meta property="og:description" content="Full-stack engineer (Next.js, React, Node, Laravel) shipping EdTech at Learnsignal. 7+ years across product and agency." />
+  <meta property="og:url" content="https://ubaidahmedawan.github.io" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@ubaidahmedawan" />
+  <meta name="twitter:title" content="Ubaid Ahmed Awan, Senior Software Engineer" />
+  <meta name="twitter:description" content="Full-stack engineer (Next.js, React, Node, Laravel) shipping EdTech at Learnsignal." />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+            mono: ['JetBrains Mono', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Consolas', 'monospace'],
+          },
+          colors: {
+            ink: {
+              50:  '#f4f6fb',
+              100: '#e6eaf3',
+              200: '#c6cee0',
+              300: '#9aa6c2',
+              400: '#6b779a',
+              500: '#4a5778',
+              600: '#36405b',
+              700: '#252c41',
+              800: '#171c2c',
+              900: '#0b0f17',
+            },
+            accent: {
+              400: '#7dd3fc',
+              500: '#38bdf8',
+              600: '#0ea5e9',
+            },
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    html { font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; }
+    body { font-family: 'Inter', ui-sans-serif, system-ui, sans-serif; }
+    .grid-bg {
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(56, 189, 248, 0.18), transparent),
+        linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px);
+      background-size: auto, 32px 32px, 32px 32px;
+    }
+    .timeline-dot {
+      box-shadow: 0 0 0 4px rgba(11, 15, 23, 1), 0 0 0 5px rgba(56, 189, 248, 0.4);
+    }
+    a.anchor-target { scroll-margin-top: 5rem; }
+    /* Subtle nav blur */
+    .nav-glass {
+      background: rgba(11, 15, 23, 0.7);
+      backdrop-filter: saturate(180%) blur(12px);
+      -webkit-backdrop-filter: saturate(180%) blur(12px);
+    }
+  </style>
 </head>
+<body class="bg-ink-900 text-ink-100 antialiased selection:bg-accent-500/30 selection:text-white">
 
-<body>
-	<!--Preloader Start-->
-	<div id="preloader">
-		<div id="status">
-			<img src="images/header/loader.gif" alt="loader">
-		</div>
-	</div>
-	<!--Main Wrapper Start-->
-	<div class="prt_main_wrapper">
-		<div class="prt_home_wrapper">
-			<!-- <div class="prt_logo_wrapper">
-				<a><img src="images/header/logo.png" alt="Logo" id="prt_close_tab"></a>
-			</div> -->
-			<div class="prt_menu_wrapper">
-				<a href="#about" class="prt_top">about</a>
-				<a href="#contact" class="prt_right">contact</a>
-				<a href="#services" class="prt_bottom">strength</a>
-				<!-- <a href="#portfolio" class="prt_left">portfolio</a> -->
-			</div>
-			<video autoplay muted playsinline loop id="myVideo">
-				<source src="images/dark_v.mp4" type="video/mp4">
-				Your browser does not support HTML5 video.
-			</video>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<h1>I'm Ubaid Ahmed Awan</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--About Wrapper Start-->
-		<div class="prt_about_wrapper ">
-			<div class="prt_close_wrapper">
-				<img src="images/header/down_arrow.png" alt="Close" class="prt_close">
-			</div>
-			<div class="container">
-				<div class="prt_about_info ">
-					<div class="row">
-						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_about_img">
-								<img src="images/content/profilepic.png" alt="About">
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_heading_wrapper_2">
-								<div class="prt_heading ">
-									<h1>About ME</h1>
-									<p>Who AM I</p>
-								</div>
-							</div>
-							<div class="prt_about_details">
-								<p>
-									I specialize in creating intuitive web applications with a strong foundation in AWS solutions, React Native, React, Laravel, and WordPress. My journey in web development has been marked by a passion for solving complex problems and leading projects tosuccessful completion.
-									<br><br>
-									Throughout my career, I have delivered successful web-based solutions that enhance customer engagement and streamline business processes. Leveraging my expertise in these technologies, I am committed to building scalable, user-centric applications that meet diverse business needs.
-									<br><br>
-									My approach is driven by a commitment to quality and continuous improvement, with a focus on innovation and efficiency. I am highly motivated and thrive in environments that encourage out-of-the-box thinking and problem-solving.
-									<br><br>
-									I am now seeking opportunities that allow me to expand my expertise, take on new challenges, and contribute to the growth and success of the organization.
-								</p>
-								<a href="UBAID_CV.pdf" target="_blank" class="prt_btn">Download Resume</a> <a href="#contact" class="prt_btn">Hire Me</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="prt_about_edulearn_wrapper ">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_heading_wrapper">
-							<div class="prt_heading">
-								<h1>Education</h1>
-								<p>learning</p>
-							</div>
-						</div>
-						<div class="prt_about_learnsection">
-							<div class="row">
-								<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_learnbox_right">
-										<div class="prt_about_learnbox_year">
-											<h1>2014 - 2018</h1>
-										</div>
-										<div class="prt_about_learnbox_info">
-											<h4>Bachelors Of Computer Science</h4>
-											<span>Bahria University Islamabad, Pakistan</span>
-											<a target="_blank" href="https://bahria.edu.pk/">bahria.edu.pk</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_learnbox_left">
-										<div class="prt_about_learnbox_year">
-											<h1>2011 - 2013</h1>
-										</div>
-										<div class="prt_about_learnbox_info">
-											<h4>Higher Secondary School Certificate (HSSC), Pre-Engineering</h4>
-											<span>Preston Intermediate College Hyderabad, Pakistan</span>
-											<a target="_blank" href="pes.edu.pk">pes.edu.pk</a>
-										</div>
-									</div>
-								</div>
-								<div class="col-xl-6 offset-xl-6 col-md-12 offset-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_learnbox_right">
-										<div class="prt_about_learnbox_year">
-											<h1>2009 - 2011</h1>
-										</div>
-										<div class="prt_about_learnbox_info">
-											<h4>Secondary School Certificate (SSC)</h4>
-											<span>H.R.H. Prince Agha Khan Higher Secondary School Hyderabad, Pakistan</span>
-											<a target="_blank" href="http://aksa.edu.pk/">aksa.edu.pk</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="prt_about_experience_wrapper ">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_heading_wrapper">
-							<div class="prt_heading">
-								<h1>Experience</h1>
-								<p>involvement</p>
-							</div>
-						</div>
-						<div class="prt_about_experience">
-							<div class="row">
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2024</h1>
-											<h4>June to Present</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>Senior Software Development Engineer</h4>
-											<span>Dublin, County Dublin, Ireland</span>
-											<a target="_blank" href="https://learnsignal.com/">learnsignal.com</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															As a Part-Time Developer and DevOps Engineer, I play a key role in both software development and operational management, ensuring seamless software delivery and system performance.
-															<ul>
-																<li><strong>Full-Stack Development:</strong> I design and implement features across backend and frontend using AWS, React, Laravel, and WordPress. My work focuses on delivering user-centric, high-quality solutions that align with business objectives.</li>
-																<li><strong>DevOps Management:</strong> I manage CI/CD pipelines, automate deployment processes, and optimize server performance using tools like Docker, Jenkins, and AWS. My efforts ensure the reliability, scalability, and efficiency of our applications, reducing downtime and streamlining operations.</li>
-																<li><strong>Feature Development:</strong> Collaborating with cross-functional teams, I am involved in designing, developing, and deploying new features. My role requires close communication with stakeholders to meet project requirements, ensuring a smooth and effective user experience.</li>
-																<li><strong>Infrastructure as Code (IaC):</strong> I manage infrastructure using Terraform and CloudFormation, allowing for automated provisioning and consistent environments across development, testing, and production stages.</li>
-																<li><strong>Performance Optimization:</strong> I continuously optimize code, improve database queries, and implement best practices to maintain high performance and reliability. These optimizations contribute to faster load times and an improved user experience.</li>
-																<li><strong>Team Collaboration:</strong> I actively participate in team meetings, code reviews, and brainstorming sessions, contributing to a culture of innovation and continuous improvement. My part-time role allows me to bring fresh perspectives and effective solutions to complex challenges.
-															 </ul>
-															 This experience hones my ability to balance multiple roles efficiently, combining development and operational responsibilities. It prepares me to contribute effectively to any team, offering a blend of technical expertise and a strong focus on operational excellence.
-														</div>"
-												data-type="html" data-title="Read_more_1" data-toggle="lightbox" data-gallery="Read_more_1">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2020</h1>
-											<h4>Jan to Present</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>Senior Software Developer</h4>
-											<span>Dr. William Rahal Beverly Hills, CA, USA</span>
-											<a target="_blank" href="https://drwilliamrahal.com/">drwilliamrahal.com</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															As a Part-Time Developer working remotely, I focus on WordPress and PHP to deliver scalable web solutions while maintaining operational efficiency.
-															<ul>
-																<li><strong>WordPress Development:</strong> I design and develop custom WordPress themes and plugins, creating responsive, user-friendly websites optimized for performance and SEO, ensuring excellent user experiences.</li>
-																<li><strong>PHP Development:</strong> I build and maintain custom functionalities for WordPress sites using PHP, integrating third-party APIs, and developing backend solutions to support complex business logic.</li>
-																<li><strong>Feature Development:</strong> I independently design and implement features aligned with business objectives, enhancing user engagement and delivering value.</li>
-																<li><strong>Performance Optimization:</strong> I optimize WordPress sites by improving load times, refining code, and implementing caching strategies for fast, reliable performance.</li>
-															 </ul>
-															This remote role deepens my expertise in WordPress and PHP, enabling me to develop high-performance solutions while effectively balancing development tasks from a remote environment. It prepares me to deliver technically sound solutions aligned with business goals, regardless of location.
-														</div>"
-												data-type="html" data-title="Read_more_1" data-toggle="lightbox" data-gallery="Read_more_1">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2020</h1>
-											<h4>Jan to Present</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>Senior Software Engineer</h4>
-											<span>The Ingenio Marketing LLC West New York, New Jersey, USA</span>
-											<!-- <a target="_blank" href="#"></a> -->
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															As a Part-Time Developer and DevOps Engineer at The Ingenio Marketing LLC, I focus on WordPress, PHP, and AWS to deliver scalable web solutions while maintaining operational efficiency.
-															<ul>
-																<li><strong>WordPress Development:</strong> I design custom WordPress themes and plugins, creating responsive, user-friendly websites optimized for performance and SEO, ensuring excellent user experiences.</li>
-																<li><strong>PHP Development:</strong> I build and maintain custom functionalities for WordPress sites using PHP, integrating third-party APIs, and developing backend solutions to support complex business logic.</li>
-																<li><strong>AWS Integration:</strong> I utilize AWS to ensure the scalability and reliability of web applications, managing EC2 instances, S3 storage, and RDS databases while optimizing resources for cost efficiency.</li>
-																<li><strong>DevOps Management:</strong> I implement CI/CD pipelines to automate deployments, optimizing server performance and infrastructure using AWS tools to support continuous delivery.</li>
-																<li><strong>Feature Development:</strong> I collaborate with cross-functional teams to design and implement features aligned with business objectives, enhancing user engagement and delivering value.</li>
-																<li><strong>Performance Optimization:</strong> I optimize WordPress sites by improving load times, refining code, and implementing caching strategies for fast, reliable performance.</li>
-																<li><strong>Team Collaboration:</strong> I participate in team discussions and code reviews, contributing to a collaborative culture that fosters continuous improvement and innovation.</li>
-															</ul>
-															This role at The Ingenio Marketing LLC deepens my expertise in WordPress, PHP, and AWS, enabling me to develop high-performance solutions while effectively balancing development and operational tasks. It prepares me to deliver technically sound solutions aligned with business goals.
-														</div>"
-												data-type="html" data-title="Read_more_1" data-toggle="lightbox" data-gallery="Read_more_1">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2020</h1>
-											<h4>Sept to Present</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>Software Development Team Lead</h4>
-											<span>DexterCode Islamabad, Pakistan</span>
-											<a target="_blank" href="https://dextercode.com/">dextercode.com</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															<ul>
-																<li><strong>Strategic Leadership:</strong> Orchestrated the development life cycle for multiple strategic projects, consistently achieving a 95% on-time delivery rate.</li>
-																<li><strong>Technical Expertise:</strong> Leveraged in-depth knowledge of PHP, Laravel, Shopify, WordPress, HTML/CSS, JS, and AWS to troubleshoot and resolve complex technical issues.</li>
-																<li><strong>Coding Mentorship:</strong> Served as a go-to expert for team members on technical challenges, leading frequent knowledge-sharing sessions and one-on-one coaching.</li>
-																<li><strong>Laravel and PHP Guidance:</strong> Provided architectural guidance and code reviews for Laravel and PHP projects, ensuring optimal performance and security measures.</li>
-																<li><strong>E-commerce Solutions:</strong> Advised on best practices for Shopify implementations, leading to a 15% increase in client e-commerce conversion rates.</li>
-																<li><strong>Front-End Development:</strong> Assisted team members with front-end technologies like HTML/CSS and JS, significantly improving webpage load times and user experience.</li>
-																<li><strong>Cloud Computing:</strong> Played a pivotal role in the migration and management of cloud services on AWS, optimizing operational efficiency by 30%.</li>
-																<li><strong>Team Development:</strong> Fostered a culture of continuous learning and development, which contributed to a 20% improvement in team performance metrics.</li>
-																<li><strong>Stakeholder Collaboration:</strong> Facilitated effective communication between business analysts, architects, and developers, streamlining project efficiency.</li>
-																<li><strong>Process Optimization:</strong> Implemented Agile methodologies that led to a 40% reduction in project backlog.</li>
-																<li><strong>Comprehensive Documentation:</strong> Authored and updated critical system documentation including user guides, API specifications, and architectural schematics.</li>
-																<li><strong>Tier-3 Support:</strong> Delivered exceptional third-tier technical support, resolving 98% of escalated issues within the initial response timeframe.</li>
-															 </ul>
-														</div>"
-												data-type="html" data-title="Read_more_1" data-toggle="lightbox" data-gallery="Read_more_1">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2019</h1>
-											<h4>Jun to 2020 Aug</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>Junior Website Developer</h4>
-											<span>Corporate Research and Investigations Limited Islamabad, Pakistan</span>
-											<a target="_blank" href="https://www.crigroup.com/">crigroup.com</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															<ul>
-																<li><strong>Custom Web Development:</strong> Engineered robust PHP websites and specialized web portals such as HRMIS and Audit Portal, serving over 2,000 users across the organization.</li>
-																<li><strong>Cloud Infrastructure Management:</strong> Administered and optimized AWS EC2 instances, reducing operational costs by 25%.</li>
-																<li><strong>UI/UX Collaboration:</strong> Led the front-end development, collaborating with UI/UX designers to deliver intuitive interfaces, thereby enhancing user engagement by 15%.</li>
-																<li><strong>Quality Assurance:</strong> Established and executed a comprehensive testing protocol, which led to a 20% reduction in post-launch bugs and issues.</li>
-															 </ul>
-														</div>"
-												data-type="html" data-title="Read_more_2" data-toggle="lightbox" data-gallery="Read_more_2">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2018</h1>
-											<h4>Sept to 2019 May</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>WordPress Developer</h4>
-											<span>2 Web Design Saskatchewan, Canada</span>
-											<a target="_blank" href="https://www.2webdesign.com/">2webdesign.com</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															<ul>
-																<li><strong>WordPress Expertise:</strong> Designed and launched over 30 WordPress websites, enhancing the digital presence for clients in diverse industries.</li>
-																<li><strong>Client Support:</strong> Implemented an efficient troubleshooting process, reducing ticket resolution time by 50%.</li>
-																<li><strong>Collaborative Design:</strong> Partnered with graphic designers to implement design frameworks that improved site usability and aesthetics.</li>
-																<li><strong>Quality Control:</strong> Conducted meticulous QA testing, leading to an overall improvement in website performance metrics by 10%.</li>
-															 </ul>
-														</div>"
-												data-type="html" data-title="Read_more_3" data-toggle="lightbox" data-gallery="Read_more_3">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div>
-								<!-- <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-									<div class="prt_about_experiencebox">
-										<div class="prt_about_experience_year">
-											<h1>2016</h1>
-											<h4>Jun to 2016 Aug</h4>
-										</div>
-										<div class="prt_about_experience_info">
-											<h4>ASP .NET Developer</h4>
-											<span>Enabling Systems (Private) Limited. (Division of Approach Me, Inc.) Rawalpindi, Pakistan</span>
-											<a target="_blank" href="https://enabling.systems/">enabling.systems</a>
-											<p>
-												<a class= "read_more" href="#" data-src="
-														<div class='read_more_inner'>
-															Being an internee was very hard work which leads me to learn many things as:
-															<ul>
-																<li>ASP .NET</li>
-																<li>New language environment (Angular JS 2)with designers to create clean, intuitive and simple user interfaces for the websites and web applications.</li>
-															 </ul>
-														</div>"
-												data-type="html" data-title="Read_more_4" data-toggle="lightbox" data-gallery="Read_more_4">Read More</a>
-											</p>
-										</div>
-									</div>
-								</div> -->
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="prt_profile_info">
-					<div class="row">
-						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_profile_slider">
-								<div class="owl-carousel owl-theme">
-									<div class="item">
-										<a href="https://www.linkedin.com/in/ubaidahmedawan/" target="_blank">
-											<i class="fa fa-linkedin pl_clr1" aria-hidden="true"></i>
-											<h4>LinkedIn</h4>
-										</a>
-									</div>
-									<div class="item">
-										<a href="https://twitter.com/Ubaidahmedawan/" target="_blank">
-											<i class="fa fa-twitter pl_clr2" aria-hidden="true"></i>
-											<h4>Twitter</h4>
-										</a>
-									</div>
-									<div class="item">
-										<a href="https://www.instagram.com/ubaidahmedawan/" target="_blank">
-											<i class="fa fa-instagram pl_clr3" aria-hidden="true"></i>
-											<h4>Instagram</h4>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_heading_wrapper_2">
-								<div class="prt_heading">
-									<h1>PROFILES</h1>
-									<p>Works At</p>
-								</div>
-							</div>
-							<div class="prt_profile_details">
-								<p>
-									My portfolio serves as a comprehensive testament to my capabilities in designing and deploying tailor-made solutions across a myriad of industries and specialized use cases. It's a curated collection that illuminates my versatility in web development technologies and frameworks, including but not limited to HTML, CSS, JavaScript, WordPress, PHP, and Laravel.
-									<br><br>
-									Featured within this portfolio are an array of projects encompassing web applications, specialized tools, automation scripts, and dynamic websites. These projects not only underline my ability to deliver top-tier products but also offer a granular insight into my craftsmanship. Each project is accompanied by meticulous documentation, illustrative code samples, and visual snapshots, all aimed at providing prospective employers or clients with an unambiguous understanding of my technical acumen.
-									<br><br>
-									Additionally, the portfolio is enriched with client testimonials, providing authentic, third-party validations of my commitment to quality, timeliness, and cost-effective solutions. These endorsements serve to bolster my proven track record, reinforcing my aptitude for delivering high-caliber projects within agreed-upon timelines and budgets.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="prt_footer_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Copyright © 2023. All Rights Reserved</p>
-							<ul>
-								<li><a class="footer-linkedin" href="https://www.linkedin.com/in/ubaidahmedawan"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a class="footer-facebook" href="https://www.facebook.com/ubaidahmedawan"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a class="footer-twitter" href="https://twitter.com/Ubaidahmedawan/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a class="footer-instagram" href="https://www.instagram.com/ubaidahmedawan/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a class="footer-skype" href="https://join.skype.com/invite/c6PBTw20kvHl"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Contact Wrapper Start-->
-		<div class="prt_contact_wrapper ">
-			<div class="prt_close_wrapper">
-				<img src="images/header/right_arrow.png" alt="Close" class="prt_close">
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_heading_wrapper">
-							<div class="prt_heading">
-								<h1>get in touch</h1>
-								<p>contact me</p>
-							</div>
-						</div>
-					</div>
-					<!-- <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_contact_info">
-							<h1>How I can help you ?</h1>
-							<div class="prt_contact_form">
-								<div class="row">
-									<div class="col-12">
-										<form accept-charset="UTF-8" action="https://usebasin.com/f/c1b04116fa86" method="POST" id="contactForm" name="submitForm">
-											<div class="row">
-												<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<input type="text" name="first_name" placeholder="Your Name" class="require" required maxlength="40" data-validation-containaplha-regex="([a-z]*[A-Z ]*)*">
-												</div>
-												<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-													<input type="text" name="email" placeholder="Your Email" class="require" required data-valid="email" data-error="Email should be valid" >
-												</div>
-												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													<input type="text" name="subject" placeholder="Subject" class="require" required>
-												</div>
-												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													<textarea rows="4" name="message" placeholder="Message" class="require" required data-validation-required-message="Please enter a message"></textarea>
-												</div>
-												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													<div class="response"></div>
-												</div>
-												<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-													<button type="sumbit" class="prt_btn submitForm" form-type="contact">submit</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-					<div class="prt_contact_details">
-						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-								<a href="tel:+92-333-326-4321" target="_blank">
-									<div class="prt_contact_details_box details_box1">
-										<h4>Phone</h4>
-										<p><a href="tel:+92-333-326-4321" target="_blank">+92-333-326-4321</a></p>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-								<a href="mailto:ubaidahmed30@gmail.com" target="_blank"></a>
-									<div class="prt_contact_details_box details_box2">
-										<h4>Email</h4>
-										<p><a href="mailto:ubaidahmed30@gmail.com" target="_blank">ubaidahmed30@gmail.com</a></p>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-								<a href="https://goo.gl/maps/cf3x6wydCEzbk2W3A" target="_blank">
-									<div class="prt_contact_details_box details_box3">
-										<h4>Address</h4>
-										<p><a href="https://maps.app.goo.gl/uP7x3YFmETS75XSb8" target="_blank">Islamabad, Pakistan</a></p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_contact_map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425289.9904604669!2d72.75645511781514!3d33.616250951741705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1717093189260!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="prt_footer_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Copyright © 2023. All Rights Reserved</p>
-							<ul>
-								<li><a class="footer-linkedin" href="https://www.linkedin.com/in/ubaidahmedawan"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a class="footer-facebook" href="https://www.facebook.com/ubaidahmedawan"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a class="footer-twitter" href="https://twitter.com/Ubaidahmedawan/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a class="footer-instagram" href="https://www.instagram.com/ubaidahmedawan/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a class="footer-skype" href="https://join.skype.com/invite/c6PBTw20kvHl"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Services Wrapper Start-->
-		<div class="prt_services_wrapper ">
-			<div class="prt_close_wrapper">
-				<img src="images/header/up_arrow.png" alt="Close" class="prt_close">
-			</div>
-			<div class="prt_services_slider_wrapper ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_heading_wrapper">
-								<div class="prt_heading">
-									<h1>What I do</h1>
-									<p>take a look</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_services_slider_imgs">
-								<img class="img_1 active" src="images/content/serv1.jpg" alt="Service">
-								<img class="img_2" src="images/content/serv2.jpg" alt="Service">
-								<img class="img_3" src="images/content/serv3.jpg" alt="Service">
-								<img class="img_4" src="images/content/serv4.jpg" alt="Service">
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-							<div class="row rowResponsive1">
-								<div class="col-lg-6 col-md-12">
-									<div class="prt_services_slider_text prt_img_click " id="1">
-										<img src="images/content/serv1.png" alt="Service icon">
-										<h4>Project management</h4>
-										<p>Devise comprehensive project plans that clearly delineate objectives, milestones, timelines, and resource allocations, enabling efficient and effective management of multifaceted project portfolios.</p>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12">
-									<div class="prt_services_slider_text prt_img_click" id="2">
-										<img src="images/content/serv2.png" alt="Service icon">
-										<h4>Team Collaboration</h4>
-										<p>Institute robust communication frameworks and clearly delineate roles and responsibilities. This ensures seamless, coordinated efforts across various projects within the portfolio, enhancing team synergy and productivity.</p>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12">
-									<div class="prt_services_slider_text prt_img_click" id="3">
-										<img src="images/content/serv3.png" alt="Service icon">
-										<h4>Time Management</h4>
-										<p>Implement meticulous scheduling strategies, coupled with deadline enforcement, to manage and prioritize tasks and resources. This ensures the timely completion of multiple concurrent projects within the portfolio.</p>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-12">
-									<div class="prt_services_slider_text prt_img_click" id="4">
-										<img src="images/content/serv4.png" alt="Service icon">
-										<h4>Web Development</h4>
-										<p>Design and deploy a robust portfolio website leveraging HTML, CSS, PHP, Laravel, and JavaScript. The website serves as an interactive showcase of your diverse projects, underscoring your comprehensive skill set in web development.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="prt_couter_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="prt_counter_box">
-								<img src="images/content/counter_1.png" alt="Clients">
-								<h3 class="timer" data-from="0" data-to="95" data-speed="5000"></h3>
-								<p>Happy Clients</p>
-							</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-							<div class="prt_counter_box">
-								<img src="images/content/counter_2.png" alt="Projects">
-								<h3 class="timer" data-from="0" data-to="165" data-speed="5000"></h3>
-								<p>Project Done</p>
-							</div>
-						</div>
-						<!-- <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-							<div class="prt_counter_box">
-								<img src="https://dummyimage.com/100x100" alt="Awards">
-								<h3 class="timer" data-from="0" data-to="16" data-speed="5000"></h3>
-								<p>Award Won</p>
-							</div>
-						</div> -->
-					</div>
-				</div>
-			</div>
-			<div class="prt_skills_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_heading_wrapper">
-								<div class="prt_heading">
-									<h1>My Skills</h1>
-									<p>Expert in</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="canvas">
-						<div class="row">
-							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
-								<div class="circle" id="circles-1"></div>
-								<h5>WordPress</h5>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
-								<div class="circle" id="circles-2"></div>
-								<h5>PHP</h5>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
-								<div class="circle" id="circles-3"></div>
-								<h5>Html & Css</h5>
-							</div>
-							<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center">
-								<div class="circle" id="circles-4"></div>
-								<h5>JavaScript</h5>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="prt_client_slider_wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_heading_wrapper">
-								<div class="prt_heading">
-									<h1>Clients</h1>
-									<p>Worked With</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="prt_client_slider">
-								<div class="owl-carousel owl-theme">
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-									<div class="item">
-										<a href=""><img src="https://dummyimage.com/170x86" alt="Client"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div> -->
-			<div class="prt_footer_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Copyright © 2023. All Rights Reserved</p>
-							<ul>
-								<li><a class="footer-linkedin" href="https://www.linkedin.com/in/ubaidahmedawan"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a class="footer-facebook" href="https://www.facebook.com/ubaidahmedawan"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a class="footer-twitter" href="https://twitter.com/Ubaidahmedawan/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a class="footer-instagram" href="https://www.instagram.com/ubaidahmedawan/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a class="footer-skype" href="https://join.skype.com/invite/c6PBTw20kvHl"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Portfolio Wrapper Start-->
-		<div class="prt_portfolio_wrapper ">
-			<div class="prt_close_wrapper">
-				<img src="images/header/left_arrow.png" alt="Close" class="prt_close">
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="prt_heading_wrapper">
-							<div class="prt_heading">
-								<h1>portfolio</h1>
-								<p>MY work</p>
-							</div>
-						</div>
-					</div>
-					<div class="prt_portfolio_box popup-gallery">
-						<div class="row">
+  <!-- Skip link for a11y -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded focus:bg-accent-500 focus:px-3 focus:py-2 focus:text-ink-900">Skip to content</a>
 
+  <!-- Sticky nav -->
+  <header class="nav-glass fixed top-0 inset-x-0 z-40 border-b border-white/5">
+    <nav class="mx-auto max-w-6xl px-5 sm:px-6 h-16 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-2 font-semibold tracking-tight text-ink-50">
+        <span class="inline-flex h-7 w-7 items-center justify-center rounded-md bg-accent-500/15 text-accent-400 font-mono text-sm">UA</span>
+        <span class="hidden sm:inline">Ubaid Ahmed Awan</span>
+      </a>
+      <ul class="hidden md:flex items-center gap-7 text-sm text-ink-300">
+        <li><a class="hover:text-ink-50 transition-colors" href="#about">About</a></li>
+        <li><a class="hover:text-ink-50 transition-colors" href="#now">Now</a></li>
+        <li><a class="hover:text-ink-50 transition-colors" href="#skills">Skills</a></li>
+        <li><a class="hover:text-ink-50 transition-colors" href="#experience">Experience</a></li>
+        <li><a class="hover:text-ink-50 transition-colors" href="#projects">Projects</a></li>
+        <li><a class="hover:text-ink-50 transition-colors" href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="hidden md:inline-flex items-center rounded-md bg-accent-500 px-3.5 py-1.5 text-sm font-medium text-ink-900 hover:bg-accent-400 transition-colors">Get in touch</a>
+    </nav>
+  </header>
 
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
-								<a class="imageopen" href="images/content/port1_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x359" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x359" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x448" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-								<a class="imageopen" href="images/content/port4_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x272" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore" style="display: block;">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x272" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-								<a class="imageopen" href="images/content/port6_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x448" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 prt_loadmore">
-								<a class="imageopen" href="images/content/port7_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/750x359" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x360" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-								<a class="imageopen" href="images/content/port1_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x359" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x360" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x448" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-								<a class="imageopen" href="images/content/port4_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x272" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x272" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-								<a class="imageopen" href="images/content/port6_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x448" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 prt_loadmore">
-								<a class="imageopen" href="images/content/port7_big.jpg" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/750x359" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>box mockup design</h4>
-											<p>Mockup</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 prt_loadmore">
-								<a class="popup-youtube" href="https://www.youtube.com/watch?v=tqKpk1wABuI" title="">
-									<div class="prt_portfolio_img">
-										<img src="https://dummyimage.com/360x360" alt="Portfolio">
-										<div class="prt_portfolio_text">
-											<h4>Click and open video</h4>
-											<p>video</p>
-										</div>
-									</div>
-								</a>
-							</div>
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-								<button class="prt_btn prt_btn_portfolio" id="loadMore">load more</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="prt_footer_wrapper  ">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<p>Copyright © 2023. All Rights Reserved</p>
-							<ul>
-								<li><a class="footer-linkedin" href="https://www.linkedin.com/in/ubaidahmedawan"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								<li><a class="footer-facebook" href="https://www.facebook.com/ubaidahmedawan"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a class="footer-twitter" href="https://twitter.com/Ubaidahmedawan/"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a class="footer-instagram" href="https://www.instagram.com/ubaidahmedawan/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li><a class="footer-skype" href="https://join.skype.com/invite/c6PBTw20kvHl"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Main js file Style-->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/bs5-lightbox.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/plugin/countto/jquery.countTo.js"></script>
-	<script type="text/javascript" src="js/plugin/countto/jquery.appear.js"></script>
-	<script type="text/javascript" src="js/circles.js"></script>
-	<script type="text/javascript" src="js/custom.js"></script>
-	<!--Main js file End-->
+  <main id="main" class="pt-16">
+
+    <!-- Hero -->
+    <section id="top" class="grid-bg border-b border-white/5">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20 sm:py-28">
+        <div class="max-w-3xl">
+          <p class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-ink-300 font-mono">
+            <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            Available for senior IC and tech-lead roles, remote
+          </p>
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-ink-50">
+            Ubaid Ahmed Awan
+          </h1>
+          <p class="mt-3 text-lg sm:text-xl text-ink-200">
+            Senior Software Engineer at <a class="text-accent-400 hover:text-accent-500 underline-offset-4 hover:underline" href="https://www.learnsignal.com" target="_blank" rel="noopener">Learnsignal</a>, Dublin (remote from Islamabad).
+          </p>
+          <p class="mt-6 text-base sm:text-lg text-ink-300 leading-relaxed">
+            Senior SWE, full-stack (Next.js, React, Node, plus Laravel and PHP depth) shipping EdTech at Learnsignal Dublin. 7+ years across product and agency.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="https://github.com/UbaidAhmedAwan" target="_blank" rel="noopener"
+               class="inline-flex items-center gap-2 rounded-md bg-accent-500 px-4 py-2.5 text-sm font-medium text-ink-900 hover:bg-accent-400 transition-colors">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.6-1.3-1.6-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.7.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+              View GitHub
+            </a>
+            <a href="#contact"
+               class="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-ink-100 hover:bg-white/10 transition-colors">
+              Contact
+            </a>
+            <a href="UBAID_CV.pdf" download
+               class="inline-flex items-center gap-2 rounded-md border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-ink-100 hover:bg-white/10 transition-colors">
+              <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+          </div>
+
+          <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-ink-400 font-mono">
+            <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-ink-500"></span>Islamabad, PKT (UTC+5)</span>
+            <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-ink-500"></span>Strong EU overlap</span>
+            <span class="inline-flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-ink-500"></span>7+ years building</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="anchor-target border-b border-white/5">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">01. About</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">A practical senior engineer</h2>
+          </div>
+          <div class="md:col-span-2 space-y-5 text-ink-300 leading-relaxed">
+            <p>
+              I am a senior software engineer with 7+ years building full-stack web applications. I have strong depth across PHP, Laravel, WordPress, and Node.js, and I recently evolved into Next.js and React as Learnsignal modernized their platform in early 2026.
+            </p>
+            <p>
+              I am comfortable across the full delivery cycle: feature development, deployment to AWS, GCP, and Azure, GitHub Actions CI/CD pipelines, and stakeholder-facing project leadership. Before Learnsignal I spent 4 years as a Software Development Team Lead at DexterCode, running multi-project agency delivery.
+            </p>
+            <p>
+              I am at my best as a hands-on senior IC or a player-coach tech lead at remote-first product companies. PKT (UTC+5) gives me strong overlap with European teams and partial overlap with the US east coast.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Currently working on -->
+    <section id="now" class="anchor-target border-b border-white/5 bg-ink-800/30">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">02. Now</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Currently working on</h2>
+          </div>
+          <div class="md:col-span-2">
+            <article class="rounded-xl border border-white/10 bg-ink-800/60 p-6 sm:p-8 hover:border-accent-500/40 transition-colors">
+              <div class="flex flex-wrap items-center justify-between gap-3">
+                <div>
+                  <h3 class="text-xl font-semibold text-ink-50">Learnsignal (Signal)</h3>
+                  <p class="text-sm text-ink-400 mt-1">Senior Software Development Engineer, Dublin (Remote) &middot; Jun 2024 to Present</p>
+                </div>
+                <a href="https://www.learnsignal.com" target="_blank" rel="noopener"
+                   class="inline-flex items-center gap-1.5 text-sm text-accent-400 hover:text-accent-500">
+                  learnsignal.com
+                  <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+              </div>
+              <p class="mt-5 text-ink-300 leading-relaxed">
+                EdTech platform for accountancy training. I lead development on the platform, initially on the Laravel and PHP codebase, and evolved with the team as the platform migrated to Next.js in January 2026. Today I ship full-stack features across the current Next.js, React, and Node platform for a high-traffic learner-facing product, manage AWS-based deployment and operations (EC2, S3, RDS), and maintain GitHub Actions CI/CD pipelines for automated testing and deployment across environments.
+              </p>
+              <ul class="mt-5 grid sm:grid-cols-2 gap-x-6 gap-y-2 text-sm text-ink-300">
+                <li class="flex gap-2"><span class="text-accent-400">&rsaquo;</span>Backend perf work: query tuning, caching, refactors</li>
+                <li class="flex gap-2"><span class="text-accent-400">&rsaquo;</span>Cross-functional delivery with stakeholders</li>
+                <li class="flex gap-2"><span class="text-accent-400">&rsaquo;</span>Hotfixes on remaining Laravel code paths</li>
+                <li class="flex gap-2"><span class="text-accent-400">&rsaquo;</span>Code review and architectural discussion</li>
+              </ul>
+              <div class="mt-6 flex flex-wrap gap-2">
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">Next.js</span>
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">React</span>
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">Node.js</span>
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">TypeScript</span>
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">AWS</span>
+                <span class="rounded-md bg-accent-500/10 text-accent-400 border border-accent-500/20 px-2 py-1 text-xs font-mono">GitHub Actions</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="anchor-target border-b border-white/5">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">03. Skills</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Stack and tooling</h2>
+            <p class="mt-3 text-ink-400 text-sm leading-relaxed">A working list. Heavier on the things I ship every week, lighter on the things I reach for occasionally.</p>
+          </div>
+          <div class="md:col-span-2 grid sm:grid-cols-2 gap-4">
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">Current stack (Learnsignal)</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Next.js</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">React</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Node.js</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">TypeScript</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">Backend depth (5+ years)</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">PHP</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Laravel</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Node.js</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">MySQL</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">REST APIs</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">3rd-party integrations</span>
+              </div>
+            </div>
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">Frontend</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">React</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Next.js</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">TypeScript</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">JavaScript</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">HTML</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">CSS</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">jQuery</span>
+              </div>
+            </div>
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">Cloud and deployment</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">AWS (EC2, S3, RDS, Lambda)</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Google Cloud</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Microsoft Azure</span>
+              </div>
+            </div>
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">CMS and platforms (deep prior)</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">WordPress (themes, plugins, multisite)</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Shopify</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Zoho</span>
+              </div>
+            </div>
+
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <h3 class="text-sm font-semibold text-ink-50">CI/CD and tooling</h3>
+              <div class="mt-3 flex flex-wrap gap-2">
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">GitHub Actions</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Bash deploy scripts</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Git / GitHub</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Docker (local dev)</span>
+                <span class="rounded bg-white/5 px-2 py-1 text-xs font-mono text-ink-200">Linux basics</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="anchor-target border-b border-white/5 bg-ink-800/30">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">04. Experience</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Roles and timeline</h2>
+            <p class="mt-3 text-ink-400 text-sm leading-relaxed">Most recent first. Both part-time freelance retainers wound down in May 2026 to focus on full-time work.</p>
+          </div>
+
+          <div class="md:col-span-2">
+            <ol class="relative border-l border-white/10 pl-6 space-y-10">
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-accent-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">Senior Software Development Engineer</h3>
+                  <span class="text-xs font-mono text-ink-400">Jun 2024 to Present</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">Signal (Learnsignal) &middot; Dublin, Ireland (Remote)</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Lead developer on a high-traffic EdTech platform for accountancy training. Currently shipping Next.js, React, and Node features after the platform's January 2026 migration; previously owned the Laravel and PHP codebase. Manages AWS deployment and operations and maintains GitHub Actions CI/CD pipelines.
+                </p>
+              </li>
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-ink-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">Software Development Team Lead</h3>
+                  <span class="text-xs font-mono text-ink-400">Sep 2020 to Jul 2024</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">DexterCode &middot; Islamabad, Pakistan</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Led delivery for multiple concurrent client projects across Laravel, Shopify, and WordPress. Player-coach role: technical leadership, code reviews and standards (especially Laravel architecture), mentorship, estimation, and Agile delivery. Drove sprint predictability and reduced backlog across the team.
+                </p>
+              </li>
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-ink-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">Senior Software Engineer (Part-time retainer)</h3>
+                  <span class="text-xs font-mono text-ink-400">Jan 2020 to May 2026</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">The Ingenio Marketing LLC &middot; West New York, NJ (Remote)</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Long-running freelance retainer (~3 to 4 hrs/week) maintaining and extending custom WordPress and Laravel modules, managing AWS infrastructure (EC2, S3, RDS), implementing on-demand feature requests and third-party API integrations, and building CI/CD automation for client systems.
+                </p>
+              </li>
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-ink-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">Senior Software Developer (Part-time retainer)</h3>
+                  <span class="text-xs font-mono text-ink-400">Jan 2020 to May 2026</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">Dr. William Rahal &middot; Beverly Hills, CA (Remote)</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Long-running freelance retainer (~3 to 4 hrs/week) on WordPress and PHP maintenance: custom themes and plugins (performance and SEO aware), backend functionality, third-party API integrations, plus caching and load-time work as traffic grew.
+                </p>
+              </li>
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-ink-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">Junior Web Developer</h3>
+                  <span class="text-xs font-mono text-ink-400">Jun 2019 to Aug 2020</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">Corporate Research and Investigations Limited &middot; Islamabad, Pakistan</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Built PHP-based websites and internal portals (HRMIS, Audit Portal, event scheduler, LMS, test management) serving 2,000+ internal users. Owned QA testing protocols before production releases.
+                </p>
+              </li>
+
+              <li class="relative">
+                <span class="absolute -left-[33px] top-1.5 h-3 w-3 rounded-full bg-ink-500 timeline-dot"></span>
+                <div class="flex flex-wrap items-baseline justify-between gap-2">
+                  <h3 class="text-lg font-semibold text-ink-50">WordPress Developer</h3>
+                  <span class="text-xs font-mono text-ink-400">Sep 2018 to May 2019</span>
+                </div>
+                <p class="text-sm text-accent-400 mt-1">2 Web Design &middot; Saskatchewan, Canada (Remote)</p>
+                <p class="mt-3 text-ink-300 text-sm leading-relaxed">
+                  Designed and developed 30+ WordPress sites for clients across diverse industries. Built interactive web apps including registration and membership systems, event schedulers, and a learning management system. Direct client support and live-site bug resolution.
+                </p>
+              </li>
+
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section id="projects" class="anchor-target border-b border-white/5">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10 mb-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">05. Projects</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Featured projects</h2>
+          </div>
+          <div class="md:col-span-2">
+            <p class="text-ink-300 leading-relaxed">
+              Production sites I built for clients, from a global accountancy training platform serving 100,000+ students to a US municipal government website. Built with WordPress, custom PHP, Laravel, and (most recently) Next.js as the work has evolved.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+          <!-- Project 1: Learnsignal -->
+          <article class="group rounded-xl border border-white/10 bg-ink-800/40 p-6 hover:border-accent-500/40 hover:bg-ink-800/70 transition-colors flex flex-col">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-accent-500/15 text-accent-400 font-mono text-sm">L</span>
+              <a href="https://www.learnsignal.com" target="_blank" rel="noopener"
+                 class="text-ink-400 hover:text-accent-400 transition-colors" aria-label="Visit Learnsignal">
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </a>
+            </div>
+            <h3 class="mt-4 text-base font-semibold text-ink-50">learnsignal.com</h3>
+            <p class="text-xs text-ink-400 mt-1">Senior Software Development Engineer, Jun 2024 to Present</p>
+            <p class="mt-3 text-sm text-ink-300 leading-relaxed flex-grow">
+              Online ACCA, CIMA, and AAT accountancy training platform serving 100,000+ students across 130 countries. ACCA Gold Approved partner. Lead developer at the company, joined while the platform was Laravel/PHP and evolved with the team as Learnsignal migrated to Next.js in early 2026.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Next.js</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">React</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Node</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">TypeScript</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Laravel</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">AWS</span>
+            </div>
+            <a href="https://www.learnsignal.com" target="_blank" rel="noopener"
+               class="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-accent-400 group-hover:text-accent-500">
+              Visit learnsignal.com
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- Project 2: KDA Inc. -->
+          <article class="group rounded-xl border border-white/10 bg-ink-800/40 p-6 hover:border-accent-500/40 hover:bg-ink-800/70 transition-colors flex flex-col">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-accent-500/15 text-accent-400 font-mono text-sm">K</span>
+              <a href="https://kdainc.com" target="_blank" rel="noopener"
+                 class="text-ink-400 hover:text-accent-400 transition-colors" aria-label="Visit KDA Inc.">
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </a>
+            </div>
+            <h3 class="mt-4 text-base font-semibold text-ink-50">kdainc.com</h3>
+            <p class="text-xs text-ink-400 mt-1">Sole developer, freelance</p>
+            <p class="mt-3 text-sm text-ink-300 leading-relaxed flex-grow">
+              Public website for KDA Inc. (Karla Dennis and Associates), a tax preparation, planning, and advisory firm based in Orange County, California. Designed and built the entire site as sole developer: custom WordPress theme, plugin work, and content architecture for tax-resource pages, contact flows, and service pages.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">WordPress</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">PHP</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">MySQL</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Custom theme</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Custom plugins</span>
+            </div>
+            <a href="https://kdainc.com" target="_blank" rel="noopener"
+               class="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-accent-400 group-hover:text-accent-500">
+              Visit kdainc.com
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- Project 3: Town of West New York, NJ -->
+          <article class="group rounded-xl border border-white/10 bg-ink-800/40 p-6 hover:border-accent-500/40 hover:bg-ink-800/70 transition-colors flex flex-col">
+            <div class="flex items-center justify-between">
+              <span class="inline-flex h-9 w-9 items-center justify-center rounded-md bg-accent-500/15 text-accent-400 font-mono text-sm">W</span>
+              <a href="https://www.westnewyorknj.org/" target="_blank" rel="noopener"
+                 class="text-ink-400 hover:text-accent-400 transition-colors" aria-label="Visit Town of West New York, NJ">
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><polyline points="7 7 17 7 17 17"/></svg>
+              </a>
+            </div>
+            <h3 class="mt-4 text-base font-semibold text-ink-50">westnewyorknj.org</h3>
+            <p class="text-xs text-ink-400 mt-1">Sole developer, freelance</p>
+            <p class="mt-3 text-sm text-ink-300 leading-relaxed flex-grow">
+              Official website of the Town of West New York, New Jersey, a Hudson County municipality of 50,000+ residents directly across the Hudson River from Manhattan. Designed and built the entire site as sole developer: departmental pages, document libraries, public notices, and resident-facing service flows.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-1.5">
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">WordPress</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">PHP</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">MySQL</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Custom theme</span>
+              <span class="rounded bg-white/5 px-1.5 py-0.5 text-[11px] font-mono text-ink-300">Custom plugins</span>
+            </div>
+            <a href="https://www.westnewyorknj.org/" target="_blank" rel="noopener"
+               class="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-accent-400 group-hover:text-accent-500">
+              Visit westnewyorknj.org
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+        </div>
+
+        <p class="mt-10 text-sm text-ink-400">
+          Also maintain a few open-source starters on GitHub:
+          <a href="https://github.com/UbaidAhmedAwan?tab=repositories" target="_blank" rel="noopener" class="text-accent-400 hover:text-accent-500 underline-offset-4 hover:underline">github.com/UbaidAhmedAwan</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="anchor-target border-b border-white/5 bg-ink-800/30">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">06. Education</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Where I studied</h2>
+          </div>
+          <div class="md:col-span-2 space-y-4">
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 class="text-base font-semibold text-ink-50">MS, Project Management</h3>
+                <span class="text-xs font-mono text-ink-400">2019 to 2020</span>
+              </div>
+              <p class="text-sm text-ink-400 mt-1">Bahria University, Islamabad</p>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 class="text-base font-semibold text-ink-50">BS, Computer Science</h3>
+                <span class="text-xs font-mono text-ink-400">2014 to 2018</span>
+              </div>
+              <p class="text-sm text-ink-400 mt-1">Bahria University, Islamabad</p>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-ink-800/40 p-5">
+              <div class="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 class="text-base font-semibold text-ink-50">HSSC, Pre-Engineering</h3>
+                <span class="text-xs font-mono text-ink-400">2011 to 2013</span>
+              </div>
+              <p class="text-sm text-ink-400 mt-1">Preston Boys College</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="anchor-target">
+      <div class="mx-auto max-w-6xl px-5 sm:px-6 py-20">
+        <div class="grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <p class="text-xs font-mono uppercase tracking-widest text-accent-400">07. Contact</p>
+            <h2 class="mt-2 text-2xl sm:text-3xl font-semibold text-ink-50 tracking-tight">Get in touch</h2>
+            <p class="mt-3 text-ink-400 text-sm leading-relaxed">Best for: senior IC and tech-lead roles at remote-first product companies. EU and UK overlap is strongest from Islamabad (PKT, UTC+5).</p>
+          </div>
+          <div class="md:col-span-2">
+            <ul class="grid sm:grid-cols-2 gap-3">
+              <li>
+                <a href="mailto:awanubaidahmed@hotmail.com"
+                   class="flex items-center gap-3 rounded-xl border border-white/10 bg-ink-800/40 p-4 hover:border-accent-500/40 transition-colors">
+                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-accent-500/15 text-accent-400">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs text-ink-400 font-mono">Email</p>
+                    <p class="text-sm text-ink-50 truncate">awanubaidahmed@hotmail.com</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/ubaidahmedawan" target="_blank" rel="noopener"
+                   class="flex items-center gap-3 rounded-xl border border-white/10 bg-ink-800/40 p-4 hover:border-accent-500/40 transition-colors">
+                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-accent-500/15 text-accent-400">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5zM7.12 20.45H3.56V9h3.56v11.45zM5.34 7.43c-1.14 0-2.06-.93-2.06-2.07s.92-2.07 2.06-2.07c1.14 0 2.07.93 2.07 2.07s-.93 2.07-2.07 2.07zm15.11 13.02h-3.56v-5.57c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.67H9.32V9h3.42v1.56h.05c.48-.9 1.65-1.86 3.4-1.86 3.64 0 4.31 2.39 4.31 5.5v6.25z"/></svg>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs text-ink-400 font-mono">LinkedIn</p>
+                    <p class="text-sm text-ink-50 truncate">linkedin.com/in/ubaidahmedawan</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/UbaidAhmedAwan" target="_blank" rel="noopener"
+                   class="flex items-center gap-3 rounded-xl border border-white/10 bg-ink-800/40 p-4 hover:border-accent-500/40 transition-colors">
+                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-accent-500/15 text-accent-400">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.6-1.3-1.6-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.7.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs text-ink-400 font-mono">GitHub</p>
+                    <p class="text-sm text-ink-50 truncate">github.com/UbaidAhmedAwan</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/ubaidahmedawan" target="_blank" rel="noopener"
+                   class="flex items-center gap-3 rounded-xl border border-white/10 bg-ink-800/40 p-4 hover:border-accent-500/40 transition-colors">
+                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-accent-500/15 text-accent-400">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2H21l-6.52 7.45L22 22h-6.66l-5.21-6.81L4.4 22H1.64l6.97-7.96L1.5 2h6.83l4.71 6.23L18.244 2zm-2.34 18h1.85L7.18 4h-2L15.904 20z"/></svg>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs text-ink-400 font-mono">X / Twitter</p>
+                    <p class="text-sm text-ink-50 truncate">x.com/ubaidahmedawan</p>
+                  </div>
+                </a>
+              </li>
+              <li class="sm:col-span-2">
+                <div class="flex items-center gap-3 rounded-xl border border-white/10 bg-ink-800/40 p-4">
+                  <span class="inline-flex h-10 w-10 items-center justify-center rounded-md bg-accent-500/15 text-accent-400">
+                    <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </span>
+                  <div class="min-w-0">
+                    <p class="text-xs text-ink-400 font-mono">Location</p>
+                    <p class="text-sm text-ink-50">Islamabad, Pakistan &middot; PKT (UTC+5)</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-white/5">
+    <div class="mx-auto max-w-6xl px-5 sm:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-ink-500 font-mono">
+      <p>&copy; <span id="year"></span> Ubaid Ahmed Awan. Built with HTML, Tailwind, and a small JS snippet.</p>
+      <p><a class="hover:text-ink-300" href="#top">Back to top</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
-
 </html>
